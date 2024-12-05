@@ -1,0 +1,100 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-12-05T12:14:01.617Z",
+    "end": "2024-12-05T12:14:03.004Z",
+    "duration": 1387,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "08afd916-2da4-47cd-9a4a-4a751377c41d",
+      "title": "",
+      "fullFile": "cypress\\e2e\\verificacao-titulo.cy.js",
+      "file": "cypress\\e2e\\verificacao-titulo.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "0b989cb9-7c6c-4827-9a29-fe9d85d26bd1",
+          "title": "Testes na Página principal",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "deve clicar no botão ‘Ver pets disponíveis para adoção”",
+              "fullTitle": "Testes na Página principal deve clicar no botão ‘Ver pets disponíveis para adoção”",
+              "timedOut": null,
+              "duration": 219,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.title().should('eq', 'AdoPet');",
+              "err": {},
+              "uuid": "cbbb4a3f-6a65-42a8-9ab2-ea03e0bb6322",
+              "parentUUID": "0b989cb9-7c6c-4827-9a29-fe9d85d26bd1",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "cbbb4a3f-6a65-42a8-9ab2-ea03e0bb6322"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 219,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": null,
+      "version": "6.2.0"
+    }
+  }
+}
